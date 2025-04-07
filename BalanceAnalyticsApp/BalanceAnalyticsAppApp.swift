@@ -1,17 +1,14 @@
-//
-//  BalanceAnalyticsAppApp.swift
-//  BalanceAnalyticsApp
-//
-//  Created by никита богатырев on 05.04.2025.
-//
-
+import AppCore
+import AppView
+import ComposableArchitecture
 import SwiftUI
 
 @main
 struct BalanceAnalyticsAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(store: appDelegate.store)
         }
     }
 }
