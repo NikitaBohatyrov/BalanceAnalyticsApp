@@ -50,7 +50,7 @@ App was created according pointFree recomendations of creating modular architect
 
 All of the app Content stored in AnalyticsApp/Sources
 
-It provides complex code separation which can ease problems cross-platform development and separation of development process, in case of production better to store such package separately and compare hash.
+It provides complex code separation which can ease problems like cross-platform development and separation of development process, in case of production better to store such package separately and compare hash.
 
 ### Prerequisites
 
