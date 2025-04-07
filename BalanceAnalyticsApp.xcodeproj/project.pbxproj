@@ -12,7 +12,7 @@
 
 /* Begin PBXFileReference section */
 		2F642ED22DA1947D007EC5F0 /* BalanceAnalyticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalanceAnalyticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F642EE62DA19E8F007EC5F0 /* AnalyticsApp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AnalyticsApp; path = ../AnalyticsApp; sourceTree = SOURCE_ROOT; };
+		2FD0FEB42DA35F7B00C932AE /* AnalyticsApp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AnalyticsApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,7 +38,7 @@
 		2F642EC92DA1947D007EC5F0 = {
 			isa = PBXGroup;
 			children = (
-				2F642EE62DA19E8F007EC5F0 /* AnalyticsApp */,
+				2FD0FEB42DA35F7B00C932AE /* AnalyticsApp */,
 				2F642ED42DA1947D007EC5F0 /* BalanceAnalyticsApp */,
 				2F642EE72DA19F57007EC5F0 /* Frameworks */,
 				2F642ED32DA1947D007EC5F0 /* Products */,
